@@ -1,6 +1,18 @@
 commencer par:
 
+ISACS + 21. 
+
+removeZeroes() // forcement std::string
+on skip tant que ya des 0 et dans la chaine
+si on arrive a la fin 0 sinon substr
+
+
 constructeurs: long, const char*, std::string
+
+long --> stringstream
+const char* --> !s || !*s --> temp(s) --> temp.first_not_of("0123456789" != std::string::npos) --> "0" else temp
+std::string --> if (!std::isdigit(s[i])) "0" break; ELSE _digits = s;
+
 
 faire << et <<=
 faire >> et >>=
