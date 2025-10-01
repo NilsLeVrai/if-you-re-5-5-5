@@ -17,7 +17,7 @@ const int& vect2::operator[](int index) const{
 }
 
 bool vect2::operator==(const vect2& other) const{
-    return (_x == other._x && _y && other._y);
+    return (_x == other._x && _y == other._y);
 }
 
 bool vect2::operator!=(const vect2& other) const {
